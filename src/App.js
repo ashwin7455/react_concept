@@ -4,10 +4,20 @@ import Greet from './Components/Greet';
 import Hello from './Components/Hello';
 import Message from './Components/Message';
 import Counter from './Components/Counter';
+import FunctionClick from './Components/FunctionClick';
+import './App.css'
+import ClassCliked from './Components/ClassCliked';
+import EventBind from './Components/EventBind';
+import ParentComponent from './Components/ParentComponent';
+
 
 function App() {
   return (
     <div className="App">
+      <ParentComponent/>
+      {/* <FunctionClick />
+      <ClassCliked/>
+      <EventBind/> */}
       {/* <Counter/> */}
       {/* <Message/> */}
       {/* <Hello name = 'shhanu' heroname ='sakuni'>
@@ -20,11 +30,11 @@ function App() {
         <button> mujhe dabao </button>
       </Hello>
       <Welcome name = 'billu' heroname ='sakuni'/> */}
-      <Welcome name = 'dtb'  heroname = 'maut ka saudagar'/>
-      <Welcome name = 'prabhu' heroname = 'ullu'/>
-      <Greet name = 'shhanu' heroname ='sakuni' />
+      {/* <Welcome name = 'dtb'  heroname = 'maut ka saudagar'/>
+      <Welcome name = 'prabhu' heroname = 'ullu'/> */}
+      {/* <Greet name = 'shhanu' heroname ='sakuni' /> */}
       
-    </div>  
+    </div>
   );
 }
 
