@@ -18,6 +18,7 @@ class UserGreeting extends Component {
     return this.state.isLoggedIn && <h1>hello panadat</h1>
 
      // tareeka No. 3 - ternary conditional operator
+     
     // return(
     //     this.state.isLoggedIn ?
     //     <h1>hello yadav</h1> :
