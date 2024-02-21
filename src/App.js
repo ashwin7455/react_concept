@@ -13,13 +13,17 @@ import UserGreeting from './Components/UserGreeting';
 import NameList from './Components/NameList';
 import StyleSheet from './Components/StyleSheet';
 import RefsDemo from './Components/RefsDemo';
+import ClickCounter from './Components/ClickCounter';
+import HoverCounter from './Components/HoverCounter';
 
 
 function App() {
   return (
     <div className="App">
-      <RefsDemo/>
-      <StyleSheet primary ={true}/>
+<ClickCounter/>
+<HoverCounter/>
+      {/* <RefsDemo/>
+      <StyleSheet primary ={true}/> */}
       {/* <NameList/> */}
       {/* <UserGreeting/> */}
       {/* <ParentComponent/> */}
