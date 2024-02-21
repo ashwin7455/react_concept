@@ -20,6 +20,7 @@ import HoverCounter from './Components/HoverCounter';
 function App() {
   return (
     <div className="App">
+      {/* <WithCounter/> */}
 <ClickCounter/>
 <HoverCounter/>
       {/* <RefsDemo/>
