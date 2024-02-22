@@ -17,13 +17,23 @@ import ClickCounter from './Components/ClickCounter';
 import HoverCounter from './Components/HoverCounter';
 import ClickedCounterTwo from './Components/ClickedCounterTwo';
 import HoverCounterTwo from './Components/HoverCounterTwo';
+import User from './Components/User';
+import Counered from './Components/Counered';
 
 
 function App() {
   return (
     <div className="App">
-      <ClickedCounterTwo/>
-      <HoverCounterTwo/>
+      <Counered render = {(count , increment)=> 
+      <ClickedCounterTwo>count = {count} increment = {increment}</ClickedCounterTwo>}>
+      </Counered>
+
+      <Counered render = {(count , increment)=> 
+      <HoverCounterTwo>count = {count} increment = {increment}</HoverCounterTwo>}>
+      </Counered>
+      {/* <User render = { (isLoggedIn) => isLoggedIn ? 'tyagi' : 'guest' }/> */}
+      {/* <ClickedCounterTwo/>
+      <HoverCounterTwo/> */}
       {/* <WithCounter/> */}
 {/* <ClickCounter name = 'tyagi'/>
 <HoverCounter name = 'aditya'/> */}
