@@ -21,7 +21,8 @@ class HoverCounter extends Component {
     const { count,increment } = this.props  // Destructuring perfomed
     return (
       <div>
-        <h2 onMouseOver={increment}>  hovered {count} times</h2>   
+        <h2 onMouseOver={increment}> 
+        {this.props.name} hovered {count} times</h2>   
            </div>
     )
   }

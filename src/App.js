@@ -15,14 +15,18 @@ import StyleSheet from './Components/StyleSheet';
 import RefsDemo from './Components/RefsDemo';
 import ClickCounter from './Components/ClickCounter';
 import HoverCounter from './Components/HoverCounter';
+import ClickedCounterTwo from './Components/ClickedCounterTwo';
+import HoverCounterTwo from './Components/HoverCounterTwo';
 
 
 function App() {
   return (
     <div className="App">
+      <ClickedCounterTwo/>
+      <HoverCounterTwo/>
       {/* <WithCounter/> */}
-<ClickCounter/>
-<HoverCounter/>
+{/* <ClickCounter name = 'tyagi'/>
+<HoverCounter name = 'aditya'/> */}
       {/* <RefsDemo/>
       <StyleSheet primary ={true}/> */}
       {/* <NameList/> */}
