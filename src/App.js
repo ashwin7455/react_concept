@@ -19,18 +19,24 @@ import ClickedCounterTwo from './Components/ClickedCounterTwo';
 import HoverCounterTwo from './Components/HoverCounterTwo';
 import User from './Components/User';
 import Counered from './Components/Counered';
+import { UserProvider } from './Components/userContext';
+import ComponentE from './Components/ComponentE';
+import ComponentCc from './ComponentCc.js';
 
 
 function App() {
   return (
     <div className="App">
-      <Counered render = {(count , increment)=> 
+      {/* <UserProvider value = "ashwin"> */}
+      <ComponentCc/>
+      {/* </UserProvider> */}
+      {/* <Counered render = {(count , increment)=> 
       <ClickedCounterTwo>count = {count} increment = {increment}</ClickedCounterTwo>}>
       </Counered>
 
       <Counered render = {(count , increment)=> 
       <HoverCounterTwo>count = {count} increment = {increment}</HoverCounterTwo>}>
-      </Counered>
+      </Counered> */}
       {/* <User render = { (isLoggedIn) => isLoggedIn ? 'tyagi' : 'guest' }/> */}
       {/* <ClickedCounterTwo/>
       <HoverCounterTwo/> */}
